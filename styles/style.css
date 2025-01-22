@@ -1,3 +1,8 @@
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
@@ -7,8 +12,8 @@
 
 body{
     height: 100vh; /*ocupa a tela inteira*/
-    background-color: #000000;
-    color: #f0f0f0;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     font-family: "Jersey 25", serif;
 }
 
@@ -55,11 +60,11 @@ body{
     padding: 8px;
     text-decoration: none;
     text-align: center;
-    background-color: #f0f0f0;
-    border: solid #f0f0f0;
+    background-color: var(--cor-secundaria);
+    border: solid var(--cor-secundaria);
     border-radius: 5px;
     width: 200px;
-    color: #000000;
+    color: var(--cor-primaria);
     font-size: 20px;
     font-weight: 600;
 }
