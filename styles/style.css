@@ -18,7 +18,7 @@ body{
 }
 
 .login{
-    padding-top: 80px;
+    padding-top: 5rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -29,43 +29,43 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .login__textos__logo{
-    letter-spacing: 3px;
-    padding-bottom: 80px;
-    gap: 20px;
+    letter-spacing: 0.2rem;
+    padding-bottom: 5rem;
+    gap: 1.25rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 30px;
+    font-size: 1.9rem;
     text-align: center;
 }
 
 .login__textos__texto{
-    padding-bottom: 50px;
+    padding-bottom: 3.15rem;
 }
 
 .login__links{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 1.9rem;
 }
 
 .login__links__link{
     display: flex;
     justify-content: center;
-    padding: 8px;
+    padding: 0.5rem;
     text-decoration: none;
     text-align: center;
     background-color: var(--cor-secundaria);
     border: solid var(--cor-secundaria);
-    border-radius: 5px;
-    width: 200px;
+    border-radius: 0.5rem;
+    width: 12.5rem;
     color: var(--cor-primaria);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -75,6 +75,6 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    gap: 15px;
-    padding-bottom: 30px;
+    gap: 1.5rem;
+    padding-bottom: 1.9rem;
 }
