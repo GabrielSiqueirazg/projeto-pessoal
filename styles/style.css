@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --cor-primaria: #000000;
     --cor-secundaria: #f6f6f6;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -11,14 +11,13 @@
 }
 
 body{
-    height: 100vh; /*ocupa a tela inteira*/
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     font-family: "Jersey 25", serif;
 }
 
 .login{
-    padding-top: 5rem;
+    padding-top: 3rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -34,17 +33,18 @@ body{
 
 .login__textos__logo{
     letter-spacing: 0.2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     gap: 1.25rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 1.9rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 .login__textos__texto{
-    padding-bottom: 3.15rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 .login__links{
@@ -70,7 +70,6 @@ body{
 }
 
 .login__formulario{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,5 +86,32 @@ body{
 }
 
 .login__formulario__input{
-    padding: 0.4rem;
+    font-size: 1.2rem;
+    font-family: "Jersey 25", serif;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    width: 340px;
+    height: 28px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+button{
+    font-family: "Jersey 25", serif;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 220px;
+    height: 48px;
+    font-weight: 700;
+    border-radius: 7px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.08)
 }
