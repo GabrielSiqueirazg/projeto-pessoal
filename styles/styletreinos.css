@@ -29,6 +29,7 @@ main {
     display: flex;
     align-items: center;
     gap: 1.25rem;
+    margin-bottom: 45%;
 } 
 
 .inicio__titulo{
@@ -45,21 +46,20 @@ main {
     align-items: center;
 }
 
-.rodape{
-
-}
-
-.navegacao {
+.rodape {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
     padding: 0.3rem;
     justify-content: center;
     display: flex;
-    text-align: center;
-    gap: 3.12rem;
     border: solid var(--cor-secundaria);
     background-color: var(--cor-secundaria);
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
-.navegacao__links{
+.rodape__links{
     text-decoration: none;
     color: var(--cor-terciaria);
 }

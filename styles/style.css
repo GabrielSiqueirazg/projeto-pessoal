@@ -78,3 +78,14 @@ body{
     gap: 1.5rem;
     padding-bottom: 1.9rem;
 }
+
+.login__formulario__estilo{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.login__formulario__input{
+    padding: 0.4rem;
+}

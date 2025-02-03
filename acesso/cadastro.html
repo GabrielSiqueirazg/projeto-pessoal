@@ -19,10 +19,23 @@
             <p class="login__textos__texto">Faça o seu Cadastro</p>
         </section>
 
-        <form class="login__formulario">
-            <p>Nome: <input type="text" name="nome" id="nome"></p>
-            <p>Email: <input type="email" name="email" id="email"></p>
-            <p>Senha: <input type="password" name="senha" id="senha"></p>     
+        <form action="" class="login__formulario">
+            <section class="login__formulario__estilo">
+                <label for="nome">Nome:</label>  
+                <input class="login__formulario__input" type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            </section>
+
+            <section class="login__formulario__estilo">
+                <label for="email">Email:</label>
+                <input class="login__formulario__input" type="email" name="email" id="email" placeholder="Digite seu mehor email">
+            </section>
+
+            <section class="login__formulario__estilo">
+                <label for="password">Senha:</label>
+                <input class="login__formulario__input" type="password" name="senha" id="senha" placeholder="Digite uma senha">
+            </section>
+                <input type="submit" name="entrar" id="entrar"> 
+            
         </form>
 
         <nav class="login__links">
