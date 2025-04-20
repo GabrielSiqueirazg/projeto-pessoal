@@ -68,14 +68,18 @@ body{
     font-weight: 600;
 }
 
+.login__formulario__esqueci__senha{
+    text-decoration: none;
+    color:var(--cor-secundaria);
+}
+
 .login__formulario{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
     gap: 1.5rem;
     padding-bottom: 1.9rem;
 }
+
 
 .login__formulario__estilo{
     display: flex;
@@ -109,6 +113,16 @@ button{
     font-size: 20px;
     cursor: pointer;
     transition: transform 200ms ease-in-out;
+}
+
+.senha__textos__texto{
+    font-size: 40px;
+}
+
+.senha__textos__sub{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 button:hover{
