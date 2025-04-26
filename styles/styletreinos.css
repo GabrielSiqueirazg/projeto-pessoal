@@ -12,7 +12,6 @@
 body{
     display: flex;
     flex-direction: column;
-    padding: 1.25rem;
     background-color: var(--cor-primaria);
 }
 
@@ -49,7 +48,7 @@ main {
 .rodape {
     display: flex;
     flex-direction: row;
-    gap: 20%;
+    gap: 2.5rem;
     padding: 0.3rem;
     justify-content: center;
     display: flex;
