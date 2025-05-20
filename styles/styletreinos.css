@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --cor-primaria: #e2e2e2c5;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #000000;
+    --cor-quartearea: #616161c5;
+    --cor-quintearea: #004aad;
 }
 
 *{
@@ -13,6 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: var(--cor-primaria);
+    font-family: "Jersey 25", serif;
 }
 
 main {
@@ -22,20 +27,38 @@ main {
     align-items: flex-start;
     box-sizing: border-box;
     padding-bottom: 5%;
+    margin: 30px;
 }
 
 .inicio{
     display: flex;
     align-items: center;
     gap: 1.25rem;
-    margin-bottom: 45%;
 } 
 
+.inicio__treinos{
+    display: flex;
+    flex-direction: row;
+}
+
 .inicio__titulo{
-    text-decoration: underline;
+    margin-right: 900px;
+}
+
+.inicio__blocos{
+    background-color: var(--cor-quartearea);
+    margin-top: 30px;
+    border: 2px solid;
+    padding: 25px 200px 25px 200px;
+    border-radius: 8px;
+    border-color: var(--cor-quartearea);
+    font-size: 20px;
 }
 
 .inicio__novo__treino{
+    font-size: 20px;
+    background-color: var(--cor-quintearea  );
+    color: var(--cor-secundaria);
     display: flex;
     justify-content: center;
     border: 2px solid;
@@ -52,11 +75,11 @@ main {
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 0.3rem;
+    padding: 0.5rem;
     justify-content: center;
+    align-items: center;
     display: flex;
-    border: solid var(--cor-secundaria);
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-quartearea);
     font-size: 1.2rem;
     font-weight: 600;
 }
