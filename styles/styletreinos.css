@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor-primaria: #e2e2e2c5;
+    --cor-primaria: #c7c7c7c5;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #000000;
     --cor-quartearea: #616161c5;
@@ -16,7 +16,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
     font-family: "Jersey 25", serif;
 }
 
@@ -43,8 +43,10 @@ main {
 
 .inicio__titulo{
     margin-right: 900px;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--cor-quintearea);
 }
-
 .inicio__blocos{
     background-color: var(--cor-quartearea);
     margin-top: 30px;
